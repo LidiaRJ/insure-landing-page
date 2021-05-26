@@ -27,7 +27,7 @@ body {
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     height: auto;
-    margin: 0;
+    margin: 0px;
 }
 
 h1 {
@@ -123,7 +123,7 @@ body {
     color: white;
     text-transform: uppercase;
     font-weight: 700; 
-    font-size: 1.3rem;
+    font-size: 0.95rem;
     letter-spacing: 1px;
 }
 
@@ -134,7 +134,7 @@ body {
 .nav__content .plansBtn a {
     border: 1px solid white;
     height: auto;
-    padding: 20px 120px;
+    padding: 20px 50px;
     display: block;
 }
 
@@ -231,19 +231,24 @@ body {
     height: auto;
     text-align: center;
     color: var(--var-very-dark-violet);
+    margin: 20px;
     
 }
 
 .main__hr {
     width: 180px;
-    margin: 150px 0px 0px 130px;
+    margin: 100px 0px -50px 65px;
     border: 0.5px solid var(--var-dark-grayish-violet);
 }
 
 .main__title {
     display: inline-block;
-    margin-top: -150px;
-    transform: translateY(-140px);
+    margin-top: -200px;
+    transform: translateY(-160px);
+}
+
+.main__title h1 {
+    font-size: 2.5rem;
 }
 
 .features {
@@ -265,32 +270,38 @@ body {
     padding-bottom: 60px;
 }
 
+.feature__one {
+    display: block;
+}
 .icon__1 {
-    margin-left: 150px;
+    display: block;
+    margin-left: 100px;
 }
 
 /**---CTA SECTION---**/
 .cta__section {
     display: block;
-    margin: 0px 20px 190px 20px;
+    margin: 0px 0px 190px 0px;
 }
 
 .cta__content {
     background-image: url(./images/bg-pattern-intro-right-mobile.svg);
     background-color: var(--var-dark-violet);
     background-size: 45%;
-    background-position: 180px -115px;
+    background-position: 165px -80px;
     background-repeat: no-repeat;
-    height: 450px;
+    height: 350px;
     text-align: center;
     margin: auto;
-    padding: 70px 30px;
+    padding: 50px 30px;
     color: white;
+    
 }
 
 .cta__content h1{
     padding-bottom: 20px;
-    font-size: 2.7rem;
+    font-size: 2rem;
+    line-height: 40px;
 }
 
 .cta {
@@ -301,7 +312,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1.5px;
-    font-size: 1rem;
+    font-size: 0.85rem;
     word-spacing: 6px;
     margin-bottom: 20px;
 }
@@ -309,6 +320,7 @@ body {
 /**---FOOTER---**/
 footer {
     display: block;
+    margin-top: -50px;
 }
 
 .branding__content {
@@ -327,7 +339,7 @@ footer {
     margin: 60px auto 0px auto;
 }
 .social__media {
-    padding-left: 100px;
+    padding-left: 120px;
 }
 
 .social__media a img {
@@ -394,7 +406,7 @@ li.main__link {
     .nav__content {
         display: inline-block;
         margin-top: 0px;
-        margin-left: 350px;
+        margin-left: 250px;
         padding-right: 40px;
         background: transparent;
 
@@ -565,14 +577,14 @@ li.main__link {
 
    /**---CTA SECTION---**/
    .cta__section {
-       margin: 0px  0px 50px -100px;
+       margin: 0px  0px 100px -100px;
    }
 
    .cta__content {
        background-image: url(./images/bg-pattern-intro-right-desktop.svg);
        background-size: 40%;
        background-position: 105% -150px;
-       height: 350px;
+       height: 250px;
        width: 90%;
        display: flex;
        flex-direction: row;
@@ -592,7 +604,7 @@ li.main__link {
 
    .cta {
        margin-right: 120px;
-       margin-top: 80px;
+       margin-top: 50px;
        padding: 0px 50px;
        height: 50px;
    }
